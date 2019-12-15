@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+<!--不管是注解还是xml配置的bean 都需要在核心配置中扫描才能生效-->
+<mappers>
+    <package name="com.itheima.dao"/>
+</mappers>
+</configuration>
